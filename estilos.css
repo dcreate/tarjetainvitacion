@@ -110,6 +110,13 @@ figure .trasera p{
   max-height: 450px;
 }
 
+h1,
+#clock{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Ultra', cursive;
+  color: #DA58CA;
+}
 
 @media (max-width: 600px) {
   figure{
