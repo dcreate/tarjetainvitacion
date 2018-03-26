@@ -110,6 +110,7 @@ figure .trasera p{
   max-height: 450px;
 }
 
+
 h1,
 #clock{
   font-size: 25px;
@@ -117,6 +118,14 @@ h1,
   font-family: 'Ultra', cursive;
   color: #DA58CA;
   margin: 15px auto;
+}
+
+.nombre{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -139,5 +148,9 @@ h1,
   h1,
   #clock{
     font-size: 20px;
+  }
+  .nombre{
+    font-size: 30px;
+    margin-top: 40px;
   }
 }
