@@ -28,4 +28,4 @@ const countdown = (deadline, elem, finalMessage)=>{
 	},1000)
 };
 
-countdown('Apr 07 2018 15:00:00 GMT-0600', 'clock', 'Feliz cumple');
+countdown('Apr 07 2018 15:00:00 GMT-0500', 'clock', 'Feliz cumple');
