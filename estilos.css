@@ -109,6 +109,7 @@ figure .trasera p{
   margin: 20px auto;
   max-width: 400px;
   max-height: 450px;
+  position: absolute;
 }
 
 
@@ -127,6 +128,15 @@ h1,
   font-weight: bold;
   margin-top: 40px;
   text-align: center;
+}
+
+.ubique{
+  text-align: center;
+  font-family: 'Ultra', cursive;
+  font-size: 26px;
+  color: #DA58C0;
+  position: relative;
+  top: 400px;
 }
 
 @media (max-width: 600px) {
