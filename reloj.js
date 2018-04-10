@@ -21,11 +21,11 @@ const countdown = (deadline, elem, finalMessage)=>{
 	const timerUpdate = setInterval( () => {
 		let t = getRemainTime(deadline);
 		el.innerHTML = `${t.remainDays} Dias ${t.remainHours}:${t.remainMinutes}:${t.remainSeconds} hrs.`;
-		if(t.remainTime <= 1){
+		if(t.RemainTime <= 1){
 			clearInterval(timerUpdate);
 			el.innerHTML=finalMessage;
 		}
 	},1000)
 };
 
-countdown('Apr 09 2018 22:05:00 GMT-0500', 'clock', 'A darle a la Piñata');
+countdown('Apr 09 2018 15:00:00 GMT-0500', 'clock', 'A darle a la Piñata');
