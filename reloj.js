@@ -28,4 +28,4 @@ const countdown = (deadline, elem, finalMessage)=>{
 	},1000)
 };
 
-countdown('Apr 09 2018 22:00:00 GMT-0500', 'clock', 'A darle a la Piñata');
+countdown('Apr 09 2018 22:05:00 GMT-0500', 'clock', 'A darle a la Piñata');
